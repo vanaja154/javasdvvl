@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Schedule Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="schedule.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <img src="images/image.png" alt="">
+            <div class="navbar-center">
+                <a href="Header.html" class="active">Home</a>
+                <a href="services.html">Our Services</a>
+                <a href="ourworks.html">Our Works</a>
+                <a href="#about">About Us</a>
+                <a href="schedule.html">Book a Schedule</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact">
+                <h2>Get in Touch with Us</h2>
+                <div class="contact-item">
+                    <img src="Images/phone-contact.gif" alt="Phone Icon">
+                    <p>Number<br><br>9849185334</p>
+                </div>
+                <div class="contact-item">
+                    <img src="Images/email.gif" alt="Email Icon">
+                    <p>Email<br><br>babustudio@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <img src="Images/business_hours.gif" alt="Business Hours Icon">
+                    <p>Business hours<br><br>Mon - Sun : 9am - 9pm</p>
+                </div>
+                <div class="contact-item">
+                    <img src="Images/way.gif" alt="Address Icon"><br>
+                    <p>Address<br><br>2-5-612, Adalath Circle,<br> Subedari, Hanamkonda,<br> Warangal, Telangana – 506001</p>
+                </div>
+            </div>
+            <div class="schedule">
+                <h2>Schedule Your Photoshoot</h2>
+                <!-- Only one form here -->
+                <form action="schedule" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="mobile">Mobile number</label>
+                    <input type="text" id="mobile" name="mobile" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required><br>
+
+                    <label for="event">Select your event</label>
+                    <select id="event" name="event" required>
+                        <option value="Half Saree">Half Saree</option>
+                        <option value="Cake Smash">Cake Smash</option>
+                        <option value="Kids">Kids</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Candidate">Candidate</option>
+                        <option value="Haldi">Haldi</option>
+                        <option value="Pre Wedding">Pre Wedding</option>
+                        <option value="Maternity">Maternity</option>
+                    </select><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                    <div class="submit-container">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footercontainer">    
+        <footer class="footer">
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>2-5-612, Adalath Circle, Subedari, Hanamkonda, Warangal, Telangana - 506001</p>
+            </div>
+            <div class="footer-section">
+                <h3>Email</h3>
+                <p><a href="mailto:babustudio@gmail.com">babustudio@gmail.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul class="links">
+                    <li><a href="Header.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="ourworks.html">Our Works</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <img src="Images/image.png" alt="" width="190" height="130">
+                <div class="social">
+                    <img src="Images/youtube (4).png" alt="" width="50" height="50">
+                    <img src="Images/facebook-app-symbol.png" alt="" width="50" height="50">
+                    <img src="Images/instagram (6).png" alt="" width="50" height="50">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="bellowbottom">
+        <div class="footercontact">
+            <h3>Contact</h3>
+            <p>9849185334</p>
+        </div>
+        <div class="Business">
+            <h3>Business Hours</h3>
+            <p>Mon-Sun: 9am - 9pm</p>
+        </div>
+    </div>
+</body>
+</html>

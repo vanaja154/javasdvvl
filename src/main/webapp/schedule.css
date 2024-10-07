@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .body {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.navbar{
+    position: sticky;
+    top : 0 ;
+    box-shadow: 0 4px 6px rgba(82, 62, 62, 0.1);
+    z-index: 1000000000;
+    background-color: #fff8ee !important;
+    border:2px solid red;
+   
+}
+.navbar-center {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 450px;
+}
+.navbar a {
+    padding: 10px 50px;
+    padding-left: 50px;
+    margin-top: -60px;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3f1e00;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #fff8ee ;
+    
+} 
+.container {
+    display: flex;
+    gap: 200px; /* Space between the two sections */
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.schedule {
+    margin-top: 200px;
+    padding: 50px;
+    width: 600px; /* Adjust width as needed */
+    height: auto;
+    box-shadow: 0 4px 6px rgba(219, 114, 114, 0.1);
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.contact-item img {
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 10px;
+}
+.contact-item p {
+    margin: 0; /* Remove default margins */
+}
+.contact h2,.schedule h2 {
+    font-family: "Tangerine", cursive;
+    font-size: 50px;
+    padding-top: 200px;
+}
+.schedule h2 {
+    padding-left: 120px;
+}
+.contact h2{
+    padding-top: 150px; 
+}
+.schedule h2 {
+    margin-top: -250px;
+}
+.contact p, .schedule label {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.schedule input, .schedule select, .schedule textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px  #fff8ee;
+    box-shadow: 0 4px 6px rgba(219, 114, 114, 0.1);
+
+}
+.submit-container,button {
+     margin-left: 150px;
+     margin-top: 20px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #fff8;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none; /* Prevent resizing by users */
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left:100px;
+    margin-top: 50px;
+}
+.social ,img{
+    display: flex;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-family: 'Cursive', serif;
+    padding-left: 10px;
+}
+.links {
+    list-style: none;
+    padding: 0;
+}
+.links li {
+    margin-bottom: 5px;
+}
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.footer-section p {
+    margin: 5px 0;
+    padding-left: 10px;
+}
+.footer-section p a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.footer-section h3, p{
+    padding-right: 100px;
+}
+.bellowbottom{
+    margin-left: 90px;
+    margin-top: -10px;
+}
+.footer-section li{
+    padding-left: 10px;
+}
+.bellowbottom h3{
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+}
+.footercontact{
+    padding-left: 70px;
+    margin-top: -90px;
+}
+.footercontact h3{
+    margin-top: -90px;
+}
+.bellowbottom p{
+    margin-top: -30px;
+}
+.Business{
+    margin-top: -110px;
+    margin-left: 390px;
+}
+.social{
+    margin-left: 20px;
+}

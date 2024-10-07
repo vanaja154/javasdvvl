@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .body {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.navbar{
+    position: sticky;
+    top : 0 ;
+    box-shadow: 0 4px 6px rgba(82, 62, 62, 0.1);
+    z-index: 1000000000;
+    background-color: #fff8ee !important;
+}
+.navbar-center {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 450px;
+}
+.navbar a {
+    padding: 10px 50px;
+    padding-left: 50px;
+    margin-top: -60px;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3f1e00;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #fff8ee ;
+    
+} 
+.schedule{
+       font-family: 'Lucida Handwriting', cursive;
+       padding-left: 1050px;
+       margin-top: -300px;
+       font-size: 24px;
+}
+.schedule a{
+    text-decoration: none;
+}
+.schedule button{
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+}
+.styled-text {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 28px;
+    color: black;
+    transform: rotate(-20deg);
+    text-align: center;
+    padding-right: 900px;
+    padding-top: 30px;
+} 
+.styled-text p{
+    font-size: 20px;
+    margin-left: 270px;
+}
+.middle
+{
+   padding: 16px 500px;
+   margin-top: -300px;
+   padding-left: 600px;
+}
+.h1
+{
+    padding-left: 400px;
+    padding-top: 150px;
+    margin: 50px;
+    font-family: "Tangerine", cursive;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: normal;
+}
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+.bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.service-item {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    width:90px;
+    height: -10px;
+    margin: 10px;
+}
+.service-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.service-item h3 {
+    font-family: "Tangerine", cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+.service-item p {
+    font-size: 14px;
+    color: #666;
+    padding-left: 60px;
+}
+.footer1{
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        max-width: 1200px;
+        padding: 10px;
+        margin: 20px;
+        color: #666;
+}
+.footer1 img {
+    max-width: 100%;
+    height: 500px;
+}
+.text{
+    padding-left: 600px;
+    margin-top: -500px;
+    
+ }
+ .text h2 {
+    margin-bottom: 20px;
+    font-family: "Tangerine", cursive;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: normal;
+}
+.text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left:100px;
+    margin-top: 100px;
+}
+.social ,img{
+    display: flex;
+}
+.social{
+    margin-left: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-family: 'Cursive', serif;
+    padding-left: 10px;
+}
+.links {
+    list-style: none;
+    padding: 0;
+}
+.links li {
+    margin-bottom: 5px;
+}
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.footer-section p {
+    margin: 5px 0;
+    padding-left: 10px;
+}
+.footer-section p a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+.footer-section li{
+    padding-left: 10px;
+}
+.h3{
+    font-family: "Tangerine", cursive;
+    font-size: 20px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+}
+.footer-section h3, p{
+    padding-right: 100px;
+}
+.bellowbottom{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.bellowbottom h3{
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+}
+.footercontact{
+    padding-left: 70px;
+    margin-top: -90px;
+}
+.Business{
+    margin-top: -60px;
+    margin-left: 390px;
+}
